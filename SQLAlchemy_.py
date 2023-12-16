@@ -22,3 +22,4 @@ q_SQLAlchemy(Q[1], 2)
 q_SQLAlchemy(Q[2], 3)
 q_SQLAlchemy(Q[3], 4)
 
+conn.close()
