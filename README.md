@@ -8,6 +8,8 @@ Pandas2_.py - время работы Pandas через read_csv
 ![image](https://github.com/ktoori/lab_3_/assets/152300646/5be9a5df-1da2-4b50-b437-9a0e5575ab99)
 
 Сравнительные графики:
+
+
 ![image](https://github.com/ktoori/lab_3_/assets/152300646/87a10852-6ee0-4fa2-96de-184c5946ae27)
 
 **Psycopg2**
