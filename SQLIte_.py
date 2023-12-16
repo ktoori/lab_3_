@@ -16,12 +16,12 @@ Q = ['''SELECT "VendorID", COUNT(*) FROM table_name GROUP BY 1;''',
 
 db_file = 'C:\\Users\\crugv\\lab_3\\mydb.db'
 conn = sqlite3.connect(db_file)
-#tiny = 'nyc_yellow_tiny.csv'
-#df = pd.read_csv(tiny)
-#if 'Airport_fee' in df:
-#    df.pop('Airport_fee')
-#df["tpep_pickup_datetime"] = pd.to_datetime(df["tpep_pickup_datetime"])
-#df.to_sql('table_name', conn, if_exists = 'replace', index = False)
+tiny = 'nyc_yellow_tiny.csv'
+df = pd.read_csv(tiny)
+if 'Airport_fee' in df:
+    df.pop('Airport_fee')
+df["tpep_pickup_datetime"] = pd.to_datetime(df["tpep_pickup_datetime"])
+df.to_sql('table_name', conn, if_exists = 'replace', index = False)
 cursor = conn.cursor()
 
 q_SQLite(Q[0], 1)
