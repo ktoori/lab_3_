@@ -8,6 +8,8 @@ Pandas_.py - время работы Pandas через подключение к
 
 Pandas2_.py - время работы Pandas через read_csv
 
+Для запуска нужно поместить файл 'nyc_yellow_tiny.csv' в папку с проектом.
+
 
 Таблица с временем работы четырёх запросов для каждой библиотеки:
 ![image](https://github.com/ktoori/lab_3_/assets/152300646/5be9a5df-1da2-4b50-b437-9a0e5575ab99)
